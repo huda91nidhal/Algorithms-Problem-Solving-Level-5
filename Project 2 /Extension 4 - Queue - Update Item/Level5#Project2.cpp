@@ -34,5 +34,9 @@ int main()
     cout << "\n\nQueue after Updating Item(2) to 600 :\n";
     MyQueue.Print();
 
+    MyQueue.InsertAfter(2, 800);
+    cout << "\n\nQueue after inserting 800 after Item(2) :\n";
+    MyQueue.Print();
+
     return 0;
 }

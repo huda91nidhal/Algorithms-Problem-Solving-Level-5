@@ -54,9 +54,14 @@ public:
         return _MyList.Reverse();
     }
 
-    void UpdateItem(int Index, T Item)
+    void UpdateItem(int Index, T NewValue)
     {
-        _MyList.UpdateItem(Index, Item);
+        _MyList.UpdateItem(Index, NewValue);
+    }
+
+    void InsertAfter(int Index, T NewValue)
+    {
+        _MyList.InsertAfter(Index, NewValue);
     }
 };
 
